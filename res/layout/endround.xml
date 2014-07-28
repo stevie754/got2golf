@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/endHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_border" >
+
+                <TextView
+                    android:id="@+id/endUserHead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:gravity="center_horizontal"
+                    android:text="@string/user"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/endCourseTotalHead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:gravity="center_horizontal"
+                    android:text="@string/courseTotal"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/endUserTotalHead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:gravity="center_horizontal"
+                    android:text="@string/userTotal"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/endScoreHead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:gravity="center_horizontal"
+                    android:text="@string/score"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/endUserRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_border" >
+
+                <TextView
+                    android:id="@+id/endUserRowName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_body"
+                    android:gravity="center_horizontal"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/endUserRowCourse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_body"
+                    android:gravity="center_horizontal"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/endUserRowTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_body"
+                    android:gravity="center_horizontal"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/endUserRowScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_body"
+                    android:gravity="center_horizontal"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/endGuest1Row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_border" >
+
+                <TextView
+                    android:id="@+id/endGuest1RowName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:gravity="center_horizontal"
+                    android:text="@string/guest1" />
+
+                <TextView
+                    android:id="@+id/endGuest1RowCourse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:gravity="center_horizontal"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/endGuest1RowTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:gravity="center_horizontal"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/endGuest1RowScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:gravity="center_horizontal"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/endGuest2Row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_border" >
+
+                <TextView
+                    android:id="@+id/endGuest2RowName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_body"
+                    android:gravity="center_horizontal"
+                    android:text="@string/guest2" />
+
+                <TextView
+                    android:id="@+id/endGuest2RowCourse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_body"
+                    android:gravity="center_horizontal"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/endGuest2RowTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_body"
+                    android:gravity="center_horizontal"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/endGuest2RowScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_body"
+                    android:gravity="center_horizontal"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/endGuest3Row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_border" >
+
+                <TextView
+                    android:id="@+id/endGuest3RowName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:gravity="center_horizontal"
+                    android:text="@string/guest3" />
+
+                <TextView
+                    android:id="@+id/endGuest3RowCourse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:gravity="center_horizontal"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/endGuest3RowTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:gravity="center_horizontal"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/endGuest3RowScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:gravity="center_horizontal"
+                    android:text="" />
+            </TableRow>
+        </TableLayout>
+ 			<TextView
+                    android:id="@+id/spacer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="" />
+       
+        <TableLayout
+            android:id="@+id/TableLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/emailAddressText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/emailAddressText" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/emailAddressEdit"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:width="170dip" />
+            </TableRow>
+
+            <TableRow android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/emailSubjectText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/emailSubjectText" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/emailSubjectEdit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:text=""
+                    android:inputType="textEmailSubject"
+                    android:width="170dip" />
+
+            </TableRow>
+        </TableLayout>
+
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="fill_parent"
+        android:layout_height="136dp"
+        android:gravity="top"
+        android:lines="10"
+        android:width="300dip" >
+    </EditText>
+
+    <Button
+        android:id="@+id/emailsendbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/send"
+        android:width="150dip" />
+ <Button
+        android:id="@+id/emailfinishbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/finish"
+        android:width="150dip" />
+</LinearLayout>

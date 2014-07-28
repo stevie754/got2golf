@@ -1,0 +1,185 @@
+<resources>
+
+    <string name="app_name">got2Golf</string>
+
+    <string-array name="par">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="clubs">
+        <item>Driver</item>
+        <item>3 Wood</item>
+        <item>9 Iron</item>
+        <item>SW</item>
+        <item>PW</item>
+        <item>LW</item>
+    </string-array>
+    <string-array name="stats">
+        <item>Shot Tracking</item>
+        <item>Par 3</item>
+        <item>Par 4</item>
+        <item>Par 5</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="players">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="scores">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string name="hints">Hints</string>
+    <string name="hints_1">Golf Tip #1 - Your Golf Grip</string>
+    <string name="hints_tip1">Tip: The tighter you grip the golf club; the more the golf ball has a tendency to go off to the right. The looser you grip the golf club; the tendency will be for the golf ball to go off to the left.</string>
+    <string name="hints_2">Golf Tip #2 - Hold the Club Correctly</string>
+    <string name="hints_tip2">Lay the club handle on your palms and grasp the club with your thumbs facing down. Both hands should be touching each other. Choke down on the club if you do not want to hit the golf ball too far or choke up on the club for maximum distance.</string>
+    <string name="hints_3">Golf Tip #3 - Feet Position</string>
+    <string name="hints_tip3">Tip: Keep your feet in line with the ball. Lay your club at your feet so it is touching your toes. What direction is the club pointing to? This is the direction the ball will go if you hit the golf ball right.</string>
+    <string name="hints_4">Golf Tip #4 - Golf Stance</string>
+    <string name="hints_tip4">One way to tell if your stance is correct is to try to move your toes up and down as you are standing with the golf club. If you are leaning too far towards the golf ball you will not be able to move your feet. Likewise if you are leaning too far backwards you will have an easy time moving both feet up and down.</string>
+    <string name="hints_5">Golf Tip #5 - Coordinate Your Entire Body into the Swing</string>
+    <string name="hints_tip5">Pull back on your golf club keeping your hands straight as you pull back, turn your hips and legs slightly, follow back through on your downward swing turning your hips and legs back towards the golf ball and follow your swing all the way through in one motion.</string>
+    <string name="hints_6">Golf Tip #6 - Know Your Sweet Spot</string>
+    <string name="hints_tip6">Make sure you are hitting the ball square with your golf club. Depending on the club, the sweet spot of the club may be higher up on the face head of the club. You want to make contact with the ball at the bottom of your arc. Take practice swings with each club so you know where your sweet spot is.</string>
+    <string name="hints_7">Golf Tip #7 - Tee Height</string>
+    <string name="hints_tip7">Tip: The golf ball should be slightly higher than the center of the club face. If you are hitting underneath the ball, keep your chin up. If you are topping the ball, fix your posture and bend over a little bit more.</string>
+    <string name="hints_8">Golf Tip #8 - Timing</string>
+    <string name="hints_tip8">Tip: If your timing is off and your bodys too quick, you\'ll go to the right. If your timings off and your body\'s a little too slow, you might hook it. Make sure that your bottom part of the body is moving out of the way as your arms swing down.</string>
+    <string name="hints_9">Golf Tip #9 - Knees Flexed</string>
+    <string name="hints_tip9">Tip: Keep your knees slightly flexed and then bend from the hips. In the golf swing, the knees never ever get straight in the backswing. They stay flexed the entire way.</string>
+    <string name="hints_10">Golf Tip #10 - Keep Your Eye on the Ball</string>
+    <string name="hints_tip10">This is the most fundamental tip that you need to be aware of for every golf shot. Keep your head down and your eyes on the ball.</string>
+    <string name="menu_insert">Add Item</string>
+    <string name="no_courses">No Courses Added</string>
+ 	<string name="game_settings">Game Settings</string>
+ 	<string name="settings_trackGIR">Track GIR</string>
+ 	<string name="settings_trackRecovery">Track Recovery</string>
+ 	<string name="settings_trackPutts">Track # of Putts</string>
+ 	<string name="stat_settings">Stat Settings</string>
+ 	<string name="clearFavCourse">Clear Favourite Courses</string>
+ 	<string name="clearRecentCourse">Clear Recent Courses</string>
+ 	<string name="clearStats">Clear Game Stats</string>
+ 	<string name="clearShot">Clear Shot Stats</string>
+ 	<string name="clear">Clear</string>
+ 	<string name="settingsUser">User Settings</string>
+ 	<string name="name">Name</string>
+ 	<string name="user">User</string>
+ 	<string name="email">Email</string>
+ 	<string name="emailHint">user@hotmail.co.uk</string>
+ 	<string name="save">Save</string>
+ 	<string name="courseTotal">Course Total</string>
+ 	<string name="userTotal">User Total</string>
+ 	<string name="score">Score</string>
+ 	<string name="guest1">Guest 1</string>
+ 	<string name="guest2">Guest 2</string>
+ 	<string name="guest3">Guest 3</string>
+ 	<string name="hole">Hole</string>
+ 	<string name="par">Par</string>
+ 	<string name="a1">1</string>
+ 	<string name="a2">2</string>
+ 	<string name="a3">3</string>
+ 	<string name="a4">4</string>
+ 	<string name="a5">5</string>
+ 	<string name="a6">6</string>
+ 	<string name="a7">7</string>
+ 	<string name="a8">8</string>
+ 	<string name="a9">9</string>
+ 	<string name="a10">10</string>
+ 	<string name="a11">11</string>
+ 	<string name="a12">12</string>
+ 	<string name="a13">13</string>
+ 	<string name="a14">14</string>
+ 	<string name="a15">15</string>
+ 	<string name="a16">16</string>
+ 	<string name="a17">17</string>
+ 	<string name="a18">18</string>
+ 	<string name="front9">Front 9</string>
+ 	<string name="back9">Back 9</string>
+ 	<string name="total">Total</string>
+ 	<string name="trackDistance">Distance:  m</string>
+ 	<string name="stop">Stop</string>
+ 	<string name="cancel">Cancel</string>
+ 	<string name="start">Start</string>
+ 	<string name="linktoCourses">Link to courses list</string>
+ 	<string name="recent">Recently Played</string>
+ 	<string name="courses">Courses</string>
+ 	<string name="favourites">Favourites</string>
+ 	<string name="stats">Stats</string>
+ 	<string name="userGuide">Userguide containing info on the current page</string>
+ 	<string name="close">Close</string>
+ 	<string name="info">Info</string>
+ 	<string name="playHole">Hole: /</string>
+ 	<string name="playPar">Par: </string>
+ 	<string name="totalShots">Total Shots</string>
+ 	<string name="playPen">Penalty (+2): </string>
+ 	<string name="playPutts"># Putts: </string>
+ 	<string name="playGIR">GIR: </string>
+ 	<string name="playUser">User: </string>
+ 	<string name="playTrack">Track</string>
+ 	<string name="playGuest1Score">Guest 1 Score:  </string>
+ 	<string name="playGuest2Score">Guest 2 Score:  </string>
+ 	<string name="playGuest3Score">Guest 3 Score:  </string>
+ 	<string name="back">Back</string>
+ 	<string name="next">Next</string>
+ 	<string name="finish">Finish</string>
+ 	<string name="reset">Reset</string>
+ 	<string name="scorecard">ScoreCard</string>
+ 	<string name="emailAddressText">Address</string>
+ 	<string name="emailSubjectText">Subject</string>
+ 	<string name="send">Send</string>
+ 	<string name="newCourseName">New Course Name</string>
+ 	<string name="requestvalues">Enter New Par Values for Course</string>
+ 	<string name="courseId">Course ID</string>
+ 	<string name="updateCourseDetails">Update Course Details</string>
+ 	<string name="courseInfo">Get Course Info</string>
+ 	<string name="deleteCourse">Delete Course</string>
+ 	<string name="courseHint">Enter ID of the course</string>
+ 	<string name="appSettings">App Settings</string>
+ 	<string name="numPLayers">Number of Players: </string>
+ 	<string name="cSettingID">Player ID\t\t    </string>
+ 	<string name="cSettingContact">Contact\t</string>
+ 	<string name="cSettingName">Name\t\t    </string>
+ 	<string name="guestHint">Please Enter Email</string>
+ 	<string name="play">Play</string>
+ 	<string name="add">Add</string>
+ 	<string name="edit">Edit</string>
+ 	<string name="delete">Delete</string>
+ 	<string name="courseName">Name: </string>
+ 	<string name="storeLocation">Store Location</string>
+ 	<string name="favButton">add course to favourites</string>
+ 	<string name="cTotal">Total: </string>
+ 	<string name="cPar3">Par3: </string>
+ 	<string name="cPar4">Par4:  </string>
+ 	<string name="cPar5">Par5:  </string>
+ 	<string name="saveCourse">Save Course</string>
+ 	<string name="enterPar">Enter Par Values for Course</string>
+ 	<string name="tipsInstructions">Instructions</string>
+ 	<string name="tipsIntro">Please use the below panels to help you find a website that will help you with your problem.\n</string>
+ 	<string name="tipsWorldRankings">World Rankings</string>
+ 	<string name="tipsBBC">BBC</string>
+ 	<string name="tipsNews">News</string>
+ 	<string name="proGolfSubText1">Pro Tour Golf Clubs</string>
+ 	<string name="tipsBeginners">Beginners</string>
+ 	<string name="tipsIntermediate">Intermediate</string>
+ 	<string name="tipsAdvanced">Advanced</string>
+ 	<string name="tipsEquipment">Equipment</string>
+ 	<string name="equipmentSubText1">Direct Golf</string>
+ 	<string name="equipmentText2">American Golf</string>
+ 	<string name="equipmentSubText3">Golf Store</string>
+ 	<string name="tipsProGolf">Pro-Golf</string>
+ 	<string name="proGolfSubText2">PGA-Europe</string>
+ 	<string name="proGolfSubText3">PGA</string>
+ 	<string name="graph">Graph</string>
+</resources>

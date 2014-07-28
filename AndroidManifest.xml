@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fyp.got2Golf"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="7" />
+
+    <support-screens
+        android:largeScreens="false"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.fyp.got2Golf.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Courses"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CoursesMap"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CourseDetails"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CourseSettings"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".FavouriteCourses"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".RecentCourses"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Stats"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ScoreCard"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".EndRound"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".AddCourse"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".EditCourse"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".DeleteCourse"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CoursesList"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Hole"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Hints"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Tips"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

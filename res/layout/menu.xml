@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Single menu item
+         Set id, icon and Title for each menu item
+    -->
+    <item android:id="@+id/mainMenuButton"
+          android:icon="@drawable/ic_golf"
+          android:title="Main Menu" />
+ 
+    <item android:id="@+id/tipsPageButton"
+          android:icon="@drawable/ic_golf"
+          android:title="Links" />
+ 
+    <item android:id="@+id/hintsPageButton"
+          android:icon="@drawable/ic_golf"
+          android:title="Tips" />
+ 
+    <item android:id="@+id/settingsPageButton"
+          android:icon="@drawable/ic_golf"
+          android:title="Settings" />
+ 
+    <item android:id="@+id/exitButton"
+          android:icon="@drawable/ic_golf"
+          android:title="Exit" />  
+</menu>

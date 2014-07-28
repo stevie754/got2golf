@@ -1,0 +1,278 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/infoTips"
+            android:contentDescription="@string/userGuide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/info" 
+             android:background="@null"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tipsIntro" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/instructionsPanelText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#005555"
+            android:padding="5dip"
+            android:text="@string/tipsInstructions" />
+
+        <LinearLayout
+            android:id="@+id/instructionsPanel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/instructionsSubtext1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:background="#777777"
+                android:padding="5dip"
+                android:clickable="true"
+                android:linksClickable="true" 
+                android:onClick="goToI1"
+                android:autoLink="web"
+        		android:text="@string/tipsBeginners"/>
+
+            <TextView
+                android:id="@+id/instructionsSubtext2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:background="#777777"
+                android:padding="5dip"
+                android:clickable="true"
+                android:linksClickable="true" 
+                android:onClick="goToI2"
+                android:autoLink="web"
+                android:text="@string/tipsIntermediate" />
+
+            <TextView
+                android:id="@+id/instructionsSubtext3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:background="#777777"
+                android:padding="5dip"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:linksClickable="true" 
+                android:onClick="goToI3"
+                android:autoLink="web"
+                android:text="@string/tipsAdvanced" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/equipmentPanelText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#005555"
+            android:padding="5dip"
+            android:text="@string/tipsEquipment" />
+
+        <LinearLayout
+            android:id="@+id/equipmentPanel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/equipmentSubText1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:background="#777777"
+                android:padding="5dip"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:linksClickable="true" 
+                android:onClick="goToE1"
+                android:autoLink="web"
+                android:text="@string/equipmentSubText1" />
+
+            <TextView
+                android:id="@+id/equipmentSubText2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:background="#777777"
+                android:padding="5dip"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:linksClickable="true" 
+                android:onClick="goToE2"
+                android:autoLink="web"
+                android:text="@string/equipmentText2"/>
+
+            <TextView
+                android:id="@+id/equipmentSubText3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:background="#777777"
+                android:padding="5dip"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:linksClickable="true" 
+                android:onClick="goToE3"
+                android:autoLink="web"
+                android:text="@string/equipmentSubText3"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/proGolfPanelText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#005555"
+            android:padding="5dip"
+            android:text="@string/tipsProGolf" />
+
+        <LinearLayout
+            android:id="@+id/proGolfPanel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/proGolfSubText1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:background="#777777"
+                android:padding="5dip"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:linksClickable="true" 
+                android:onClick="goToPG1"
+                android:autoLink="web"
+                android:text="@string/proGolfSubText1" />
+
+            <TextView
+                android:id="@+id/proGolfSubText2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:background="#777777"
+                android:padding="5dip"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:linksClickable="true" 
+                android:onClick="goToPG2"
+                android:autoLink="web"
+                android:text="@string/proGolfSubText2" />
+
+            <TextView
+                android:id="@+id/proGolfSubText3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:background="#777777"
+                android:padding="5dip"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:linksClickable="true" 
+                android:onClick="goToPG3()"
+                android:autoLink="web"
+                android:text="@string/proGolfSubText3" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/newsPanelText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#005555"
+            android:padding="5dip"
+            android:text="@string/tipsNews" />
+
+        <LinearLayout
+            android:id="@+id/newsPanel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/newsSubText1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:background="#777777"
+                android:padding="5dip"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:linksClickable="true" 
+                android:onClick="goToNews1"
+                android:autoLink="web"
+                android:text="@string/tipsBBC" />
+
+            <TextView
+                android:id="@+id/newsSubText2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:background="#777777"
+                android:padding="5dip"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:linksClickable="true" 
+                android:onClick="goToNews2"
+                android:autoLink="web"
+                android:text="@string/tipsWorldRankings" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="340dip"
+        android:dividerHeight="0px"
+        android:drawSelectorOnTop="false"
+        android:visibility="gone" />
+</LinearLayout>

@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <ImageButton
+            android:contentDescription="@string/userGuide"
+            android:id="@+id/infoMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:src="@drawable/info" />
+    </RelativeLayout>
+    <ImageButton
+        android:contentDescription="@string/linktoCourses"
+        android:id="@+id/golfImage"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:background="@color/custom_theme_color"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_golf_full" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <Button
+            android:id="@+id/recentButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.31"
+            android:onClick="onClick"
+            android:text="@string/recent" />
+        <Button
+            android:id="@+id/courseButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.31"
+            android:onClick="onClick"
+            android:text="@string/courses" />
+        <Button
+            android:id="@+id/favouriteButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.31"
+            android:onClick="onClick"
+            android:text="@string/favourites" />
+        <Button
+            android:id="@+id/statsButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.31"
+            android:onClick="onClick"
+            android:text="@string/stats" />
+    </LinearLayout>
+</LinearLayout>
